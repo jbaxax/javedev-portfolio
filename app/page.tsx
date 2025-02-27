@@ -6,7 +6,7 @@ import Stats from "@/components/stats";
 
 export default function Home() {
   return (
-    <main className="w-full px-10">
+    <main className="w-full px-10 md:min-w-[950px]">
       <div className="w-full flex flex-col md:flex-row items-center justify-center gap-6 md:gap-0 mt-14">
         <div className="flex w-full md:w-1/2">
           <div className="space-y-4 md:px-25">

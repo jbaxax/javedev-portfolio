@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${urbanist.className} antialiased`}>
+      <body className={`${urbanist.className} antialiased min-w-[350px]`}>
         <Navbar/>
         {children}</body>
     </html>

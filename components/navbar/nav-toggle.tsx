@@ -23,7 +23,7 @@ export default function NavToggle() {
         </SheetTrigger>
         <SheetContent side="left" className="w-full md:w-64 pt-12">
           <SheetHeader>
-            <SheetTitle className="text-2xl">WalterJave</SheetTitle>
+            <SheetTitle className="text-2xl font-bold">Jave<span className="text-amber-500">Dev</span></SheetTitle>
             <SheetDescription></SheetDescription>
           </SheetHeader>
 

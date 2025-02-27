@@ -3,7 +3,7 @@ import NavToggle from "./nav-toggle";
 
 export default function Navbar() {
   return (
-    <header className="flex justify-between px-10 py-4">
+    <header className="flex justify-between px-5 md:px-10 py-4 md:min-w-[950px]">
       <div className="hidden md:block ">
         <h1 className="text-4xl font-bold ">
           Jave<span className="text-orange-400">Dev </span>
