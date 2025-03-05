@@ -1,7 +1,7 @@
 export const itemsStats = [
   {
     id: 1,
-    value: "3",
+    value: "2",
     title: "Años de experiencia",
     hoverBg: "hover:text-orange-500 transition-colors duration-300 ",
   },

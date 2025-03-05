@@ -25,14 +25,14 @@ export const itemsSocialNetworks = [
     id: 3,
     title: "WhatsApp",
     icon: <Phone size={sizes.icon} strokeWidth={sizes.stroke} />,
-    link: "/services",
+    link: "https://wa.me/51984385774",
     hoverBg: "hover:text-green-500 transition-colors duration-300 hover:border-green-500"
   },
   {
     id: 4,
     title: "GitHub",
     icon: <Github size={sizes.icon} strokeWidth={sizes.stroke} />,
-    link: "/services",
+    link: "https://github.com/jbaxax",
     hoverBg: "hover:text-gray-500 transition-colors duration-300 hover:border-gray-500"
 
   },

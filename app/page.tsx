@@ -21,7 +21,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col md:flex-row gap-6 md:items-center ">
-              <Button className=" hover:bg-white  hover:text-black hover:border-black hover:shadow-lg cursor-pointer  transition-colors duration-400">
+              <Button className=" hover:bg-white hover:text-black hover:border-black hover:shadow-lg cursor-pointer  transition-colors duration-400">
                 Descargar CV <Download />
               </Button>
               <SocialNetworks />

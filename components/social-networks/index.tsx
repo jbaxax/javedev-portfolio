@@ -6,7 +6,7 @@ export default function SocialNetworks() {
     <div className="flex gap-2 justify-center">
       {itemsSocialNetworks.map((item) => (
         <div key={item.id} className={`rounded-full border p-2 border-primary transtion-color duration-300 ${item.hoverBg}`}>
-          <Link href={item.link}> {item.icon}</Link>
+          <Link href={item.link} target="_blank">{item.icon}</Link>
         </div>
       ))}
     </div>

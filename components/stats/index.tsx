@@ -6,7 +6,7 @@ export default function Stats() {
         {itemsStats.map((item)=>(
             <div key={item.id} className={`flex gap-2 justify-center ${item.hoverBg}`}>
                 <p className="font-bold text-7xl leading-none w-26 md:w-fit text-end  md:text-start">{item.value}</p>
-                <p className="font-medium  mt-1 w-27 text-start text-2xl">{item.title}</p>
+                <p className="font-medium  mt-1 w-50 md:w-27 md:text-start text-2xl">{item.title}</p>
             </div>
         ))}
     </div>
