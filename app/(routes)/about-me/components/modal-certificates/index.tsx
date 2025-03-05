@@ -1,9 +1,46 @@
-import React from 'react'
+"use client"
+import {
+    AlertDialog,
+    AlertDialogContent,
+    AlertDialogDescription,
+    AlertDialogFooter,
+    AlertDialogHeader,
+    AlertDialogTitle,
+    AlertDialogTrigger,
+  } from "@/components/ui/alert-dialog"
+import { Button } from "@/components/ui/button"
+import { useState } from "react";
+import { X } from "lucide-react";
+import Goals from "../goals";
+
+
 
 export default function ModalCertificates() {
+  
+  const [open, setOpen] = useState(false);
+  
   return (
-    <div>
-      
-    </div>
+    <AlertDialog open={open} onOpenChange={setOpen} >
+      <AlertDialogTrigger asChild>
+      <Button className=" hover:bg-white mt-4 p-7 text-xl w-40 hover:text-black  hover:shadow-lg cursor-pointer  transition-colors duration-400">
+            Ver Certificados
+          </Button>
+      </AlertDialogTrigger>
+      <AlertDialogContent className="max-w-3xl w-full h-auto">
+          <Button className="absolute top-1 right-4 text-gray-500 hover:text-white transition bg-transparent hover:bg-transparent" onClick={()=>setOpen(false)}>
+            <X size={24}/>
+          </Button>
+        <AlertDialogHeader> 
+          <AlertDialogTitle className="text-center mb-4">Certificados</AlertDialogTitle>
+        <Goals />
+            
+        <AlertDialogDescription>
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+
   )
 }

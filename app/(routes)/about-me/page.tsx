@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ModalContact from "./components/modal-contact";
+import ModalCertificates from "./components/modal-certificates";
 
 export default function page() {
   return (
-    <div className="flex flex-col items-center md:flex-row px-10 md:px-40 gap-6 md:mt-10">
+    <div className="flex max-w-full flex-col items-center md:flex-row px-10 lg:px-40 gap-6 md:mt-10 md:min-w-[950px]">
       <div className="w-full md:w-[75%] flex flex-col space-y-4  md:mt-20">
         <h1 className="text-7xl font-bolds">Sobre mí</h1>
         <p className="text-xl ">
@@ -18,15 +18,13 @@ export default function page() {
           proyectos tecnológicos y desarrollo de software. Con facilidad de
           trabajo en equipo, empeño y orientación al logro.
         </p>
-        <div className="flex justify-center md:justify-start gap-6">
+        <div className="flex justify-center md:justify-start gap-6 w-full ">
           <ModalContact/>
-          <Button className=" text-primary bg-white hover:bg-primary mt-4 p-7 text-xl w-40 hover:text-white  shadow-lg cursor-pointer  transition-colors duration-400 dark:hover:shadow-lg dark:hover:shadow-white dark:bg-black">
-            Ver certificados
-          </Button>
+          <ModalCertificates/>
         </div>
       </div>
-      <div className=" flex justify-center w-full h-full  items-center md:w-[25%]">
-        <div className="relative rounded-md w-[300px] h-[500px]">
+      <div className=" flex justify-center w-full h-full  items-center md:w-[25%] ">
+        <div className="relative rounded-md max-w-[350px] w-full h-[500px] ">
           <Image
             src="/me.jpeg"
             alt="me"

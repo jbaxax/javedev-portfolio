@@ -12,10 +12,18 @@ import { Textarea } from "@/components/ui/textarea";
 import { send } from "@/lib/emails";
 import { formSchema } from "@/lib/schema";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { Loader2 } from "lucide-react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-export default function ContactForm() {
+export default function ContactForm({
+  closeModal,
+}: {
+  closeModal: () => void;
+}) {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -25,8 +33,18 @@ export default function ContactForm() {
     },
   });
 
-  const onSubmit = (values: z.infer<typeof formSchema>) => {
-    send(values);
+  const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    setIsSubmitting(true);
+
+    try {
+      await send(values);
+      form.reset();
+      closeModal();
+    } catch (error) {
+      console.log("e", error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -62,13 +80,18 @@ export default function ContactForm() {
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Textarea placeholder="Tu correo" {...field} />
+                <Textarea placeholder="Tu mensaje" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit">Enviar</Button>
+        {/*  */}
+        <Button type="submit" disabled={isSubmitting}>
+        {isSubmitting && (
+            <Loader2 className="mr-2 h-4 w-4 animate-spin" aria-hidden="true" />
+          )}
+          {isSubmitting ? "Enviando": "Enviar"}</Button>
       </form>
     </Form>
   );

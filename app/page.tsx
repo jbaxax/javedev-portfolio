@@ -29,12 +29,12 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center items-center ">
-          <div className="rounded-full  w-64 h-64 md:w-94 md:h-94 overflow-hidden ">
+          <div className="rounded-full  max-w-94 max-h-94 overflow-hidden ">
             <Image
               src="/me.jpeg"
               alt="me"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               className="object-cover rounded-full"
             />
           </div>
