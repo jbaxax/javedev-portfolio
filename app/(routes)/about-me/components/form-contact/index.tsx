@@ -16,6 +16,7 @@ import { Loader2 } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
+import { toast } from "sonner";
 
 export default function ContactForm({
   closeModal,
@@ -40,8 +41,10 @@ export default function ContactForm({
       await send(values);
       form.reset();
       closeModal();
+      toast.success("Mensaje enviado correctamente.");
     } catch (error) {
-      console.log("e", error);
+      console.log("Error al enviar el formulario", error);
+      toast.error("Error al enviar el mensaje. Inténtalo de nuevo.");
     } finally {
       setIsSubmitting(false);
     }
@@ -88,10 +91,11 @@ export default function ContactForm({
         />
         {/*  */}
         <Button type="submit" disabled={isSubmitting}>
-        {isSubmitting && (
+          {isSubmitting && (
             <Loader2 className="mr-2 h-4 w-4 animate-spin" aria-hidden="true" />
           )}
-          {isSubmitting ? "Enviando": "Enviar"}</Button>
+          {isSubmitting ? "Enviando" : "Enviar"}
+        </Button>
       </form>
     </Form>
   );
