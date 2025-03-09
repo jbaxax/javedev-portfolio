@@ -6,10 +6,10 @@ import Stats from "@/components/stats";
 
 export default function Home() {
   return (
-    <main className="w-full px-10 md:min-w-[950px]">
-      <div className="w-full flex flex-col md:flex-row items-center justify-center gap-6 md:gap-0 mt-14">
-        <div className="flex w-full md:w-1/2">
-          <div className="space-y-4 md:px-25">
+    <main className="w-full px-10 lg:min-w-[930px]">
+      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-0 lg:mt-30">
+        <div className="flex w-full lg:w-1/2">
+          <div className="space-y-4 lg:px-25">
             <p className="text-2xl">Hola, soy</p>
             <h1 className="text-7xl font-bold">Walter Jave</h1>
             <p className="text-2xl">
@@ -20,8 +20,8 @@ export default function Home() {
               e Informática de la Universidad Tecnológica del Perú.
             </p>
 
-            <div className="flex flex-col md:flex-row gap-6 md:items-center ">
-              <Button className=" hover:bg-white hover:text-black hover:border-black hover:shadow-lg cursor-pointer  transition-colors duration-400">
+            <div className="flex flex-col lg:flex-row gap-6 lg:items-center ">
+              <Button className="hover:bg-white hover:text-black hover:border-black hover:shadow-lg cursor-pointer  transition-colors duration-400 w-40 lg:w-50 self-center">
                 Descargar CV <Download />
               </Button>
               <SocialNetworks />

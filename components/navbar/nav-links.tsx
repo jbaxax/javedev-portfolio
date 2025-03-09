@@ -15,7 +15,7 @@ export default function NavLinks() {
             : "hover:scale-105 "
         } flex items-center p-2 rounded-sm gap-2 text-2xl transition-all duration-100 ease-in-out`}
       >
-        <span className="md:hidden">{item.icon}</span>
+        <span className="lg:hidden">{item.icon}</span>
         {item.title}
       </Link>
     </div>)

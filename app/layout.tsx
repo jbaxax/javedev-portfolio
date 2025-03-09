@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${urbanist.className} antialiased min-w-[350px]`}>
+      <body className={`${urbanist.className} antialiased min-w-[350px] `}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

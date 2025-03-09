@@ -2,7 +2,7 @@ import { itemsStats } from "./data";
 
 export default function Stats() {
   return (
-    <div className="w-full gap-5 md:gap-0 flex justify-center md:justify-around text-center flex-col md:flex-row mt-12">
+    <div className="w-full gap-5 lg:gap-0 lg:flex flex-col lg:flex-row md:grid md:grid-cols-2 md:gap-x-0 justify-center md:justify-around text-center  mt-12">
         {itemsStats.map((item)=>(
             <div key={item.id} className={`flex gap-2 justify-center ${item.hoverBg}`}>
                 <p className="font-bold text-7xl leading-none w-26 md:w-fit text-end  md:text-start">{item.value}</p>

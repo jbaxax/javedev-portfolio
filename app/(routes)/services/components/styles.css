@@ -1,0 +1,7 @@
+.sliderServices .swiper-pagination-bullet{
+    background: black
+}
+
+.dark .sliderServices .swiper-pagination-bullet{
+    background: white
+}
