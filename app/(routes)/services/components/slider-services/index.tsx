@@ -1,12 +1,11 @@
 "use client";
 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import "../styles.css"
-// Import Swiper styles
+import "../styles.css";
+
 import "swiper/css";
-import 'swiper/css/pagination';
+import "swiper/css/pagination";
 import { serviceData } from "../../data";
 import {
   Card,
@@ -16,8 +15,16 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { useEffect, useState } from "react";
 
 export default function SliderServices() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) return null;
   return (
     <Swiper
       breakpoints={{
@@ -40,25 +47,23 @@ export default function SliderServices() {
       }}
       autoplay={{
         delay: 2500,
-        disableOnInteraction: false
+        disableOnInteraction: false,
       }}
       navigation
       modules={[Pagination, Autoplay]}
-      className="sliderServices h-[330px] max-w-[550px] md:mt-24"
+      className="sliderServices h-[330px] max-w-[550px] lg:mt-32"
     >
       {serviceData.map((data) => (
         <SwiperSlide key={data.id} className="w-full flex justify-center">
           <Card className="h-[290px] ">
             <CardHeader>
               <CardTitle>{data.title}</CardTitle>
-              <CardDescription className="mt-4">{data.description}</CardDescription>
+              <CardDescription className="mt-4">
+                {data.description}
+              </CardDescription>
             </CardHeader>
-            <CardContent>
-              
-            </CardContent>
-            <CardFooter>
-              
-            </CardFooter>
+            <CardContent></CardContent>
+            <CardFooter></CardFooter>
           </Card>
         </SwiperSlide>
       ))}

@@ -1,0 +1,7 @@
+.sliderTestimonials .swiper-pagination-bullet{
+    background: black
+}
+
+.dark .sliderTestimonials .swiper-pagination-bullet{
+    background: white
+}

@@ -6,8 +6,8 @@ import Stats from "@/components/stats";
 
 export default function Home() {
   return (
-    <main className="w-full px-10 lg:min-w-[930px]">
-      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-0 lg:mt-30">
+    <main className="w-full lg:h-screen flex flex-col justify-center items-center px-10  mt-20 lg:mt-0 lg:min-w-[930px]">
+      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-0 ">
         <div className="flex w-full lg:w-1/2">
           <div className="space-y-4 lg:px-25">
             <p className="text-2xl">Hola, soy</p>

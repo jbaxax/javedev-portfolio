@@ -2,8 +2,8 @@ import SliderServices from "./components/slider-services";
 
 export default function services() {
   return (
-    <div className="flex flex-col gap-6 md:flex-row items-center justify-center md:mt-10 px-10 lg:px-40 md:min-w-[930px] ">
-      <div className="max-w-[450px]">
+    <div className="flex flex-col h-screen gap-6 lg:flex-row items-center justify-center  px-10 lg:px-40 lg:min-w-[930px]">
+      <div className="max-w-[650px]">
         <h1 className="text-4xl md:text-7xl ">Mis Servicios</h1>
         <p className="mt-4 text-xl md:text-2xl">
           Ofrezco servicios de desarrollo web frontend especializados
