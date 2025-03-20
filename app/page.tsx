@@ -3,6 +3,7 @@ import SocialNetworks from "@/components/social-networks";
 import { Download } from "lucide-react";
 import Image from "next/image";
 import Stats from "@/components/stats";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,8 +23,12 @@ export default function Home() {
 
             <div className="flex flex-col lg:flex-row gap-6 lg:items-center ">
               <Button className="hover:bg-white hover:text-black hover:border-black hover:shadow-lg cursor-pointer  transition-colors duration-400 w-40 lg:w-50 self-center">
-                Descargar CV <Download />
+                
+                
+                <Link target="_blank" href="https://utpedupe-my.sharepoint.com/:w:/g/personal/u19206658_utp_edu_pe/ERqsAUFP831DtjbmYqVqADwBy8AZ_zZnj_lOtXc9e7_ELQ?e=2tsYq9" className="flex justify-center items-center gap-2">Descargar CV <Download /></Link>
+
               </Button>
+              
               <SocialNetworks />
             </div>
           </div>

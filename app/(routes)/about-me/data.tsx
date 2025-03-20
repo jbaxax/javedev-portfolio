@@ -27,86 +27,86 @@ export const dataAboutMe = [
 export const dataGoals = [
   {
     id: 1,
-    title: "Power BI",
+    title: "Excel Avanzado",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "https://puppis.blog/articulo/como-cuidar-a-un-gato",
+      "Cursor de Excel Avanzado.",
+    link: "https://www.linkedin.com/in/walter-jave/details/certifications/",
   },
   {
     id: 2,
-    title: "Power BI",
+    title: "Gestión de proyectos",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Gestión de proyectos con Metodologías Ágiles y Enfoques Lean.",
+    link: "https://www.linkedin.com/in/walter-jave/details/certifications/",
   },
   {
     id: 3,
     title: "Power BI",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Cursor de Análisis de Datos con Power BI",
+    link: "https://platzi.com/p/Riki/curso/2676-power-bi/diploma/detalle/",
   },
   {
     id: 4,
-    title: "Power BI",
+    title: "Power BI DAX",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Cursor de DAX con Power BI. ",
+    link: "https://platzi.com/p/Riki/curso/8121-powerbi-dax/diploma/detalle/",
   },
   {
     id: 5,
-    title: "Poweraea BI",
+    title: "Python",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "https://puppis.blog/articulo/como-cuidar-a-un-gato",
+      "Curso de Fundamentos de Python.",
+    link: "https://platzi.com/p/Riki/curso/4227-python-fundamentos/diploma/detalle/",
   },
   {
     id: 6,
-    title: "Power BI",
+    title: "Git y GitHub",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Curso Profesional de Git y GitHub ",
+    link: "https://platzi.com/p/Riki/curso/1557-git-github/diploma/detalle/",
   },
   {
     id: 7,
-    title: "Power BI",
+    title: "JavaScript",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Curso Práctica de JavaScript ",
+    link: "https://platzi.com/p/Riki/curso/3271-javascript-practico/diploma/detalle/",
   },
   {
     id: 8,
-    title: "Power aaaaBI",
+    title: "Frontend Developer",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Curso Práctico de Frontend Developer ",
+    link: "https://platzi.com/p/Riki/curso/2477-frontend-developer-practico/diploma/detalle/",
   },
   {
     id: 9,
-    title: "Power aaaaBI",
+    title: "Diseño",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Curso de Diseño para Developers",
+    link: "https://platzi.com/p/Riki/curso/1906-diseno-programadores/diploma/detalle/",
   },
   {
     id: 10,
-    title: "Power aaaaBI",
+    title: "Sass",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Curso de Fundamentos de Sass.",
+    link: "https://platzi.com/p/Riki/curso/6867-sass/diploma/detalle/",
   },
   {
     id: 11,
-    title: "Power aaaaBI",
+    title: "Responsive Design",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Curso de Responsive Design: Maquetación Mobile First.",
     link: "#",
   },
   {
     id: 12,
-    title: "Power aaaaBI",
+    title: "Programación Básica",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: "#",
+      "Curso Gratis de Programación Básica ",
+    link: "https://platzi.com/p/Riki/curso/3208-programacion-basica/diploma/detalle/",
   },
 ];

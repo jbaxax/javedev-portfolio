@@ -1,9 +1,9 @@
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/perrito.jpg",
-        urlGithub: "#!",
+        title: "Portafolio",
+        image: "/portfolio.png",
+        urlGithub: "https://github.com/jbaxax/javedev-portfolio.git",
         urlDemo: "#!",
     },
     {

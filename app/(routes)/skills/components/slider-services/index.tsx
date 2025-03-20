@@ -51,13 +51,13 @@ export default function SliderServices() {
       }}
       navigation
       modules={[Pagination, Autoplay]}
-      className="sliderServices h-[330px] max-w-[550px] lg:mt-32"
+      className="sliderServices h-[400px] max-w-[550px] lg:mt-32"
     >
       {serviceData.map((data) => (
         <SwiperSlide key={data.id} className="w-full flex justify-center">
-          <Card className="h-[290px] ">
+          <Card className="h-[300px] md:h-[350px]">
             <CardHeader>
-              <CardTitle>{data.title}</CardTitle>
+              <CardTitle className="flex flex-col gap-2">{data.icon} {data.title}</CardTitle>
               <CardDescription className="mt-4">
                 {data.description}
               </CardDescription>

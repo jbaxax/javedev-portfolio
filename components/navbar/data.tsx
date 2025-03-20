@@ -25,14 +25,14 @@ export default function useNavigationData() {
       },
       {
         id: 3,
-        title: "Servicios",
-        active: pathname=== "/services",
+        title: "Habilidades",
+        active: pathname=== "/skills",
         icon: <BookText size={size} />,
-        link: "/services",
+        link: "/skills",
       },
       {
         id: 4,
-        title: "Porfafolio",
+        title: "Portafolio",
         active: pathname=== "/portfolio",
         icon: <CodeSquare size={size} />,
         link: "/portfolio",

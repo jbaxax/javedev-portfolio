@@ -30,12 +30,14 @@ export default function PortfolioBox() {
             <CardDescription className="flex gap-4">
               <Link
                 href={data.urlDemo}
+                target="_blank"
                 className={buttonVariants({ variant: "outline" })}
               >
                 Demo
               </Link>
               <Link
                 href={data.urlGithub}
+                target="_blank"
                 className={buttonVariants({ variant: "outline" })}
               >
                 GitHub
