@@ -2,7 +2,7 @@ import SliderServices from "./components/slider-services";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col h-screen gap-6 lg:flex-row items-center justify-center  px-10 lg:px-40 lg:min-w-[930px]">
+    <div className="flex flex-col h-screen gap-6 lg:flex-row items-center justify-center  px-10 lg:px-40 lg:min-w-[930px] mt-24 md:mt-0">
       <div className="max-w-[650px]">
         <h1 className="text-4xl md:text-7xl ">Mis Habilidades</h1>
         <p className="mt-4 text-xl md:text-2xl">

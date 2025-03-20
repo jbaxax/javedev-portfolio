@@ -7,7 +7,7 @@ export const itemsStats = [
   },
   {
     id: 2,
-    value: "12",
+    value: "2",
     title: "Proyectos terminados",
     hoverBg: "hover:text-blue-500 transition-colors duration-300 ",
   },

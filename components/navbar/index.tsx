@@ -5,7 +5,7 @@ import NavToggle from "./nav-toggle";
 
 export default function Navbar() {
   return (
-    <header className="fixed bg-white dark:bg-black top-0 z-50 flex justify-between px-5 lg:px-10 py-4 w-full lg:min-w-[950px]">
+    <header className="fixed bg-transparent top-0 z-50 flex justify-between px-5 lg:px-10 py-4 w-full lg:min-w-[950px]">
       <div className="hidden lg:block ">
         <h1 className="text-4xl font-bold ">
           Jave<span className="text-orange-400">Dev</span>
