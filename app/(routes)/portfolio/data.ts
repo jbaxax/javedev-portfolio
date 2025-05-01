@@ -22,16 +22,16 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: "Ideas Creativas",
-        image: "/perrito.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Supabase TODO",
+        image: "/todo.png",
+        urlGithub: "https://github.com/walter259/supabase-todo.git",
+        urlDemo: "https://chipper-lollipop-cccd44.netlify.app/",
     },
     {
         id: 5,
-        title: "Webs Impactantes",
+        title: "Backend Novels",
         image: "/perrito.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/walter259/backend-novels.git",
         urlDemo: "#!",
     },
     {
