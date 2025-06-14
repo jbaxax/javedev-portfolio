@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ModalContact from "./components/modal-contact";
+
 import ModalCertificates from "./components/modal-certificates";
 
 export default function page() {
@@ -19,7 +19,7 @@ export default function page() {
           trabajo en equipo, empeño y orientación al logro.
         </p>
         <div className="flex justify-center lg:justify-start gap-6 w-full ">
-          <ModalContact/>
+         
           <ModalCertificates/>
         </div>
       </div>

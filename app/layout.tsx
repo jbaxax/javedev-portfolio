@@ -12,7 +12,7 @@ const urbanist = Urbanist({
 
 export const metadata: Metadata = {
   title: "JaveDev",
-  description: "Portafolio",
+  description: "Walter Jave es un desarrollador full stack con 4 meses de experiencia",
 };
 
 export default function RootLayout({

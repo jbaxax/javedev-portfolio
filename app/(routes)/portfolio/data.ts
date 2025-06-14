@@ -36,16 +36,16 @@ export const dataPortfolio = [
     },
     {
         id: 6,
-        title: "Web Dinámica",
+        title: "Angular CRUD Fronted",
         image: "/perrito.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/walter259/product-service-crud-frontend.git",
         urlDemo: "#!",
     },
     {
         id: 7,
-        title: "Dark Web ",
+        title: "Djando CRUD Backend  ",
         image: "/perrito.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/walter259/product-service-crud-backend.git",
         urlDemo: "#!",
     },
     {
