@@ -8,7 +8,7 @@ import ExperiencieCard from "@/components/experiencie-card";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen flex flex-col justify-center items-center px-6 lg:px-10 py-8">
+    <main className="w-full min-h-screen flex flex-col justify-center items-center px-6 lg:px-10 mt-14">
       <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-8">
         {/* Left Column - Hero Content */}
         <div className="flex flex-col justify-start">
@@ -66,10 +66,8 @@ export default function Home() {
         </div>
 
         {/* Right Column - Experience */}
-        <div className="flex flex-col">
-          <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center lg:text-left">
-            Experiencia
-          </h2>
+        <div className="flex flex-col mt-2">
+          
           <ExperiencieCard />
         </div>
       </div>
