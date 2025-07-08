@@ -1,4 +1,4 @@
-import { Linkedin, Youtube, Phone, Github } from "lucide-react";
+import { Linkedin, Youtube, Phone, Github, Music } from "lucide-react";
 
 const sizes =   {
     icon: 24,
@@ -35,5 +35,12 @@ export const itemsSocialNetworks = [
     link: "https://github.com/jbaxax",
     hoverBg: "hover:text-gray-500 transition-colors duration-300 hover:border-gray-500"
 
+  },
+  {
+    id: 5,
+    title: "TikTok",
+    icon: <Music size={sizes.icon} strokeWidth={sizes.stroke} />,
+    link: "https://www.tiktok.com/@walterjave3?_t=ZM-8xrQQ4A26UP&_r=1",
+    hoverBg: "hover:text-pink-600 transition-colors duration-300 hover:border-pink-600",
   },
 ];
