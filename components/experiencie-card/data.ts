@@ -1,7 +1,7 @@
 export const itemExperiencie = [
   {
     id: 1,
-    start: "Ago. 2024",
+    start: "Ago. 2025",
     finalice: "Actualidad",
     role: "Desarrollador Frontend",
     tags: ["Next.js", "TypeScript", "TanStack Query", "Zod"],
