@@ -18,7 +18,7 @@ export default function Home() {
               <h1 className="text-4xl lg:text-6xl font-bold">Walter Jave</h1>
               <p className="text-xl lg:text-2xl">
                 Y soy un{" "}
-                <span className="font-bold">Desarrollador Full Stack</span>
+                <span className="font-bold">Desarrollador Frontend</span>
               </p>
             </div>
 
@@ -40,27 +40,32 @@ export default function Home() {
           {/* About Section */}
           <div className="mt-8 space-y-4 text-sm lg:text-base leading-relaxed">
             <p>
-              <strong>Estudiante del 10mo ciclo</strong> de Ingeniería de
-              Sistemas e Informática de la Universidad Tecnológica del Perú.
+              <strong>Desarrollador Frontend</strong> con más de 10 meses de
+              experiencia construyendo aplicaciones web en producción con
+              Next.js (App Router), React y TypeScript.
             </p>
             <p>
-              Cuento con conocimientos sólidos en{" "}
-              <strong>TypeScript, PHP y Python</strong>, así como en el manejo
-              de bases de datos como SQL Server, MySQL y PostgreSQL.
+              He implementado lógica de UI compleja como{" "}
+              <strong>sistemas de roles y permisos anidados</strong>,
+              formularios dinámicos con +10 campos condicionales y ecommerce con
+              ISR generando <strong>+530 rutas estáticas</strong>.
             </p>
             <p>
-              Desarrollo interfaces modernas con <strong>shadcn/ui</strong> y
-              utilizo frameworks como Angular, Next.js, Vite, Laravel y Django
-              para proyectos integrales.
+              Integro APIs REST con <strong>TanStack Query y Axios</strong>, y
+              aplico validación robusta con <strong>Zod y React Hook Form</strong>{" "}
+              junto a interfaces modernas con <strong>shadcn/ui</strong> y
+              TailwindCSS.
             </p>
             <p>
-              Además, domino herramientas de control de versiones como{" "}
-              <strong> Git </strong>y <strong>GitHub.</strong>
+              Egresado de Ingeniería de Sistemas e Informática de la Universidad
+              Tecnológica del Perú, miembro del programa{" "}
+              <strong>Generación Top 2024</strong> (décimo superior).
             </p>
             <p>
               Me caracterizo por mi{" "}
-              <strong>compromiso con el aprendizaje continuo</strong> y mi
-              enfoque en la entrega de resultados de calidad.
+              <strong>compromiso con el aprendizaje continuo</strong> y la
+              entrega de funcionalidades completas de punta a punta de forma
+              autónoma.
             </p>
           </div>
         </div>
