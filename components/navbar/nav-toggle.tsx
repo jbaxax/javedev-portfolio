@@ -33,17 +33,17 @@ export default function NavToggle() {
             <Menu />
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="w-full sm:w-64 pt-12" onClick={()=>setOpen(false) }>
+        <SheetContent side="left" className="w-full sm:w-64 pt-12" onClick={() => setOpen(false)}>
           <SheetHeader>
             <SheetTitle className="text-2xl font-bold">
               Jave<span className="text-amber-500">Dev</span>
             </SheetTitle>
             <SheetDescription></SheetDescription>
           </SheetHeader>
-        <div className="flex flex-col justify-center px-5">
-        <NavLinks/>
-        </div>
-          
+          <div className="flex flex-col justify-center px-5">
+            <NavLinks />
+          </div>
+
         </SheetContent>
       </Sheet>
     </div>

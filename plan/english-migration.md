@@ -5,16 +5,16 @@ international recruiters.
 
 ## Phase 1 — Cleanup (do this first, before translating)
 
-- [ ] Remove photo on `about-me/page.tsx` (`/me.jpeg`, lines ~31-36) — not reused
+- [X] Remove photo on `about-me/page.tsx` (`/me.jpeg`, lines ~31-36) — not reused
       anywhere else in the site.
-- [ ] Remove testimonials feature entirely (fake content: same name repeated,
+- [X] Remove testimonials feature entirely (fake content: same name repeated,
       lorem-ipsum text, photo is a dog `/perrito.jpg`):
-  - [ ] Delete route `app/(routes)/testimonials/`
-  - [ ] Delete `app/(routes)/testimonials/components/slider-testimonials/`
-  - [ ] Delete `app/(routes)/testimonials/data.ts`
-  - [ ] Remove "Testimonios" item from `components/navbar/data.tsx`
-  - [ ] Delete `public/perrito.jpg`
-- [ ] Fix `app/layout.tsx` `metadata.description` — currently in Spanish and says
+  - [X] Delete route `app/(routes)/testimonials/`
+  - [ X] Delete `app/(routes)/testimonials/components/slider-testimonials/`
+  - [ X] Delete `app/(routes)/testimonials/data.ts`
+  - [ x] Remove "Testimonios" item from `components/navbar/data.tsx`
+  - [ x] Delete `public/perrito.jpg`
+- [ X] Fix `app/layout.tsx` `metadata.description` — currently in Spanish and says
       "4 meses de experiencia" (outdated, should match current experience).
 
 ## Phase 2 — Translate to English
