@@ -10,20 +10,20 @@ international recruiters.
 - [X] Remove testimonials feature entirely (fake content: same name repeated,
       lorem-ipsum text, photo is a dog `/perrito.jpg`):
   - [X] Delete route `app/(routes)/testimonials/`
-  - [ X] Delete `app/(routes)/testimonials/components/slider-testimonials/`
-  - [ X] Delete `app/(routes)/testimonials/data.ts`
-  - [ x] Remove "Testimonios" item from `components/navbar/data.tsx`
-  - [ x] Delete `public/perrito.jpg`
-- [ X] Fix `app/layout.tsx` `metadata.description` — currently in Spanish and says
+  - [X] Delete `app/(routes)/testimonials/components/slider-testimonials/`
+  - [X] Delete `app/(routes)/testimonials/data.ts`
+  - [x] Remove "Testimonios" item from `components/navbar/data.tsx`
+  - [x] Delete `public/perrito.jpg`
+- [X] Fix `app/layout.tsx` `metadata.description` — currently in Spanish and says
       "4 meses de experiencia" (outdated, should match current experience).
 
 ## Phase 2 — Translate to English
 
 - [X] `app/page.tsx` — hero, bio paragraphs, "Descargar CV" button label
-- [ X] `app/(routes)/about-me/page.tsx` — heading, bio paragraph
-- [ X] `app/(routes)/about-me/data.tsx` — `dataAboutMe` (contact labels), `dataGoals`
+- [X] `app/(routes)/about-me/page.tsx` — heading, bio paragraph
+- [X] `app/(routes)/about-me/data.tsx` — `dataAboutMe` (contact labels), `dataGoals`
       (12 certificate title + description entries)
-- [ ] `app/(routes)/about-me/components/modal-certificates/index.tsx` — button +
+- [X] `app/(routes)/about-me/components/modal-certificates/index.tsx` — button +
       dialog title
 - [ ] `app/(routes)/skills/page.tsx` — heading, paragraph
 - [ ] `app/(routes)/skills/data.tsx` — `serviceData` (4 services)

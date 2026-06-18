@@ -4,8 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "../styles.css";
 
-import "swiper/css";
-import "swiper/css/pagination";
 import { serviceData } from "../../data";
 import {
   Card,
