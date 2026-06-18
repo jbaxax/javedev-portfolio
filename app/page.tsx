@@ -14,11 +14,11 @@ export default function Home() {
         <div className="flex flex-col justify-start">
           <div className="space-y-6 text-center lg:text-left">
             <div className="space-y-2">
-              <p className="text-xl lg:text-2xl">Hola, soy</p>
+              <p className="text-xl lg:text-2xl">Hello, I'm</p>
               <h1 className="text-4xl lg:text-6xl font-bold">Walter Jave</h1>
               <p className="text-xl lg:text-2xl">
-                Y soy un{" "}
-                <span className="font-bold">Desarrollador Frontend</span>
+                And I'm a{" "}
+                <span className="font-bold">Frontend Developer</span>
               </p>
             </div>
 
@@ -29,7 +29,7 @@ export default function Home() {
                   href="https://utpedupe-my.sharepoint.com/:w:/g/personal/u19206658_utp_edu_pe/ERqsAUFP831DtjbmYqVqADwBy8AZ_zZnj_lOtXc9e7_ELQ?e=2tsYq9"
                   className="flex justify-center items-center gap-2"
                 >
-                  Descargar CV <Download />
+                  Download CV <Download />
                 </Link>
               </Button>
 
@@ -40,32 +40,32 @@ export default function Home() {
           {/* About Section */}
           <div className="mt-8 space-y-4 text-sm lg:text-base leading-relaxed">
             <p>
-              <strong>Desarrollador Frontend</strong> con más de 10 meses de
-              experiencia construyendo aplicaciones web en producción con
-              Next.js (App Router), React y TypeScript.
+              <strong>Frontend Developer</strong> with over 10 months of
+              experience building web applications in production with
+              Next.js, React and TypeScript.
             </p>
             <p>
-              He implementado lógica de UI compleja como{" "}
-              <strong>sistemas de roles y permisos anidados</strong>,
-              formularios dinámicos con +10 campos condicionales y ecommerce con
-              ISR generando <strong>+530 rutas estáticas</strong>.
+              I have implemented complex UI logic such as{" "}
+              <strong>nested role and permission systems</strong>,
+              dynamic forms with +10 conditional fields and ecommerce with
+              ISR generating <strong>+530 static routes</strong>.
             </p>
             <p>
-              Integro APIs REST con <strong>TanStack Query y Axios</strong>, y
-              aplico validación robusta con <strong>Zod y React Hook Form</strong>{" "}
-              junto a interfaces modernas con <strong>shadcn/ui</strong> y
+               integrate REST APIs with <strong>TanStack Query and Axios</strong>, and
+              apply robust validation with <strong>Zod and React Hook Form</strong>{" "}
+              along with modern interfaces using <strong>shadcn/ui</strong> and
               TailwindCSS.
             </p>
             <p>
-              Egresado de Ingeniería de Sistemas e Informática de la Universidad
-              Tecnológica del Perú, miembro del programa{" "}
-              <strong>Generación Top 2024</strong> (décimo superior).
+              Graduate of Systems Engineering and Information Technology from the
+              Universidad Tecnológica del Perú, member of the{" "}
+              <strong>Generación Top 2024</strong> program (top ten).
             </p>
             <p>
-              Me caracterizo por mi{" "}
-              <strong>compromiso con el aprendizaje continuo</strong> y la
-              entrega de funcionalidades completas de punta a punta de forma
-              autónoma.
+              I am characterized by my{" "}
+              <strong>commitment to continuous learning</strong> and the
+              delivery of complete functionalities from end to end in an
+              autonomous manner.
             </p>
           </div>
         </div>
