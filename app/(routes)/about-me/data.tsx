@@ -3,9 +3,9 @@ import { Github, Mail, Phone } from "lucide-react";
 export const dataAboutMe = [
   {
     id: 1,
-    title: "Phone",
+    title: "WhatsApp",
     subtitle: "+51 984 385 774",
-    link: "tel:+51984385774",
+    link: "https://wa.me/51984385774",
     icon: <Phone />,
   },
   {
@@ -25,14 +25,14 @@ export const dataAboutMe = [
 ];
 
 export const dataGoals = [
-  {
+  /*  {
     id: 1,
     title: "Gestión de proyectos",
     description:
-      "Gestión de proyectos con Metodologías Ágiles y Enfoques Lean.",
+    "Gestión de proyectos con Metodologías Ágiles y Enfoques Lean.",
     link: "https://www.linkedin.com/in/walter-jave/details/certifications/",
   },
-
+  */
   {
     id: 2,
     title: "Git y GitHub",
