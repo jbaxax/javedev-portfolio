@@ -51,7 +51,7 @@ export default function Home() {
               ISR generating <strong>+530 static routes</strong>.
             </p>
             <p>
-               integrate REST APIs with <strong>TanStack Query and Axios</strong>, and
+              I integrate REST APIs with <strong>TanStack Query and Axios</strong>, and
               apply robust validation with <strong>Zod and React Hook Form</strong>{" "}
               along with modern interfaces using <strong>shadcn/ui</strong> and
               TailwindCSS.
