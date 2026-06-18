@@ -23,7 +23,7 @@ export default function ModalCertificates() {
     <AlertDialog open={open} onOpenChange={setOpen} >
       <AlertDialogTrigger asChild>
       <Button className=" hover:bg-white mt-4 p-7 text-xl w-40 hover:text-black  hover:shadow-lg cursor-pointer  transition-colors duration-400">
-            Ver Certificados
+            Show Certificates
           </Button>
       </AlertDialogTrigger>
       <AlertDialogContent className="max-w-3xl w-full h-auto">
@@ -31,7 +31,7 @@ export default function ModalCertificates() {
             <X size={24}/>
           </Button>
         <AlertDialogHeader> 
-          <AlertDialogTitle className="text-center mb-4">Certificados</AlertDialogTitle>
+          <AlertDialogTitle className="text-center mb-4">Certificates</AlertDialogTitle>
         <Goals />
             
         <AlertDialogDescription>

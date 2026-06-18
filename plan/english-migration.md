@@ -21,7 +21,7 @@ international recruiters.
 
 - [X] `app/page.tsx` — hero, bio paragraphs, "Descargar CV" button label
 - [ X] `app/(routes)/about-me/page.tsx` — heading, bio paragraph
-- [ ] `app/(routes)/about-me/data.tsx` — `dataAboutMe` (contact labels), `dataGoals`
+- [ X] `app/(routes)/about-me/data.tsx` — `dataAboutMe` (contact labels), `dataGoals`
       (12 certificate title + description entries)
 - [ ] `app/(routes)/about-me/components/modal-certificates/index.tsx` — button +
       dialog title

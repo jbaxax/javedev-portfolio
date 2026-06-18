@@ -9,7 +9,7 @@ export default function page() {
         <h1 className="text-4xl md:text-7xl font-bolds">Sobre mí</h1>
         <p className="text-xl md:text-2xl">
           Frontend Developer with over 10 months of experience professional
-          building web applications in production with Next.js (App Router),
+          building web applications in production with Next.js,
           React and TypeScript. I have implemented complex UI logic such as
           nested role and permission systems, dynamic forms with more than 10
           conditional fields and ecommerce with ISR generating +530 static
