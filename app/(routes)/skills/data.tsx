@@ -4,13 +4,13 @@ export const serviceData = [
     {
         id: 1,
         icon: <Monitor />,
-        title: "Frontend Development",
-        description: "Building responsive, production-ready interfaces with Next.js, React, TypeScript, TailwindCSS and Shadcn/ui.",
+        title: "Desarrollo Frontend",
+        description: "Construcción de interfaces responsivas y listas para producción con Next.js, React, TypeScript, TailwindCSS y Shadcn/ui.",
     },
     {
         id: 2,
         icon: <Code />,
-        title: "API Integration & Full-Stack Collaboration",
-        description: "Consuming REST APIs with TanStack Query and Axios, validating with Zod and React Hook Form, and collaborating on backend work with Laravel and PHP.",
+        title: "Integración de APIs y Colaboración Full-Stack",
+        description: "Consumo de APIs REST con TanStack Query y Axios, validación con Zod y React Hook Form, y colaboración en trabajo backend con Laravel y PHP.",
     },
 ];

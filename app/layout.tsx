@@ -12,7 +12,7 @@ const urbanist = Urbanist({
 
 export const metadata: Metadata = {
   title: "JaveDev",
-  description: "Walter Jave is a frontend developer with ten months of experience. He is passionate about creating beautiful and functional user interfaces. He is always looking for new challenges and opportunities to learn and grow.",
+  description: "Walter Jave es Desarrollador Frontend con experiencia construyendo aplicaciones en producción con Next.js, React y TypeScript. Apasionado por crear interfaces funcionales y bien diseñadas, siempre en busca de nuevos desafíos y oportunidades para seguir aprendiendo.",
 };
 
 export default function RootLayout({

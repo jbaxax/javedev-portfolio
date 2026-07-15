@@ -28,13 +28,15 @@ export default function PortfolioBox() {
           <CardHeader>
             <CardTitle className="text-center mb-2">{data.title}</CardTitle>
             <CardDescription className="flex gap-4">
-              <Link
-                href={data.urlDemo}
-                target="_blank"
-                className={buttonVariants({ variant: "outline" })}
-              >
-                Demo
-              </Link>
+              {data.urlDemo !== "#!" && (
+                <Link
+                  href={data.urlDemo}
+                  target="_blank"
+                  className={buttonVariants({ variant: "outline" })}
+                >
+                  Demo
+                </Link>
+              )}
               <Link
                 href={data.urlGithub}
                 target="_blank"
